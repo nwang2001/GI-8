@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.webp);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.pizzaCalc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25%;
+    background: rgba(253, 249, 172, 0.779);
+}
+
+h2 {
+    text-align: left;
+    width: 70%;
+}
+
+input[type=text] {
+    width: 30%;
+    height: 5%;
+    margin: 1em;
+    font-family: inherit;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+#calculate {
+    width: 10em;
+    height: 3em;
+    font-family: inherit;
+    background-color: green;
+    color: white;
+    border: 0.1em solid white;
+}
+
+#display {
+    height: 3em;
+}
