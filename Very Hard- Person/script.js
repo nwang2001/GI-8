@@ -1,5 +1,5 @@
 //constructor taking 3 parameters name, job, and age
-class person {
+class Person {
     constructor(name, job, age) {
         this.name = name;
         this.job = job;
@@ -15,8 +15,8 @@ class person {
     }
 }
 
-//adds new property
-class Programmer extends person {
+// creates a new class inheriting class Person properties and adds new properties
+class Programmer extends Person {
     constructor(name, job, age, languages = []) {
         super(name, job, age);
         this.languages = languages;
@@ -51,7 +51,7 @@ class Programmer extends person {
     }
 }
 
-const person1 = new person("Harold", "Backend Engineer", 20);
+const person1 = new Person("Harold", "Backend Engineer", 20);
 const c1 = new Programmer("Liana", "DevOps", 35, ["HTML", "C#", "LUA"]);
 const c2 = new Programmer("Edwin", "Janitor", 55, ["HTML", "SASS”, ”Ruby"]);
 const c3 = new Programmer("Manny", "SysOps", 31, [("HTML", "CSS", "JS", "R")]);
