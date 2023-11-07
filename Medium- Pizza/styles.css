@@ -14,7 +14,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 15%;
     background: rgba(253, 249, 172, 0.779);
 }
 
